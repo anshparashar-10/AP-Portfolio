@@ -1,0 +1,105 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+
+    h1 {
+      color: #fff;
+      font-size: 56px;
+      line-height: 63px;
+      margin: 0;
+      font-family: "Coolvetica";
+      font-weight: 400;
+
+      &:before {
+        content: "<h1>";
+        font-family: "La Belle Aurore", cursive;
+        color: #00ff7f;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.9;
+      }
+
+      &:after {
+        content: "<h1/>";
+        font-family: "La Belle Aurore", cursive;
+        color: #00ff7f;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.9;
+      }
+    }
+
+    img {
+      margin-left: 10px;
+      opacity: 0;
+      width: 55px;
+      height: 60px;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #f15d08;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #00ff7f;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #00ff7f;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    border-radius: 0.5rem;
+
+    &:hover {
+      background: #00ff7f;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  .flat-button-resume {
+    color: #ccee0e;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ccee0e;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    border-radius: 0.5rem;
+
+    &:hover {
+      background: #ece905;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
