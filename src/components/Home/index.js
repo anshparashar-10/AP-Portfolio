@@ -72,7 +72,7 @@ const Home = () => {
             target={"_blank"}
             className="flat-button-resume"
           >
-            RESUME
+            RESUME 
           </a>
         </div>
         <Logo />
